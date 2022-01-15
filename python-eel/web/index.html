@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="/eel.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-container">
+            <div class="output">
+                <input id="output" value="" />
+            </div>
+                <div class="item1">
+                    <button value="1" onclick="buttonClear(event)">C</button>
+                    <button value="1" onclick="buttonRemove(event)"><</button>
+                    <button value="1" onclick="buttonResult(event)">=</button>
+                    <button value="/" onclick="buttonAdd(event)">/</button>
+                </div>
+                <div class="item1">
+                    <button value="1" onclick="buttonAdd(event)">1</button>
+                    <button value="2" onclick="buttonAdd(event)">2</button>
+                    <button value="3" onclick="buttonAdd(event)">3</button>
+                    <button value="x" onclick="buttonAdd(event)">x</button>
+                </div>
+                <div class="item1">
+                    <button value="4" onclick="buttonAdd(event)">4</button>
+                    <button value="5" onclick="buttonAdd(event)">5</button>
+                    <button value="6" onclick="buttonAdd(event)">6</button>
+                    <button value="-" onclick="buttonAdd(event)">-</button>
+                </div>
+                <div class="item1">
+                    <button value="7" onclick="buttonAdd(event)">7</button>
+                    <button value="8" onclick="buttonAdd(event)">8</button>
+                    <button value="9" onclick="buttonAdd(event)">9</button>
+                    <button value="+" onclick="buttonAdd(event)">+</button>
+                </div>
+                <div class="item1">
+                    <button value="(" onclick="buttonAdd(event)">(</button>
+                    <button value="0" onclick="buttonAdd(event)">0</button>
+                    <button value=")" onclick="buttonAdd(event)">)</button>
+                    <button value="," onclick="buttonAdd(event)">,</button>
+                </div>
+                <div class="item1">
+                    <button value="." onclick="buttonAdd(event)">.</button>
+                    <button value="^" onclick="buttonAdd(event)">^</button>
+                </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

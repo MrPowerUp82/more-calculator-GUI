@@ -1,0 +1,46 @@
+body{
+    background-color:#05080A;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color:transparent;
+}
+.output{
+    font-weight:bold;
+    opacity: 0.9;
+
+}
+.output input{
+    margin:2;
+    font-size:30px;
+    color:#fff;
+    font-weight:bold;
+    background-color:transparent;
+}
+
+
+.flex-container{
+    text-align: center;
+    flex-direction: column;
+    opacity: 0.9;
+}
+
+.item1{
+    flex-direction: row;
+    margin-bottom: 4px;
+}
+.item1 button{
+    padding: 16px;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    font-size:22px;
+    font-weight:bold;
+    background-color:#05080A;
+}
+
+.container{
+}
