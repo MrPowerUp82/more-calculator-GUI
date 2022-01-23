@@ -2,7 +2,7 @@
 
 ## Sobre
 
-Calculadoras com interface em varias tecnologias.
+Calculadoras com interface em várias tecnologias.
 
 ### `Tecs`
 
